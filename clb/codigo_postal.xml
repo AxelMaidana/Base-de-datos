@@ -1,0 +1,16 @@
+<!DOCTYPE codigo_postal [
+    <!ELEMENT codigo_postal (ciudad*)>
+    <!ELEMENT ciudad (nombre, codigo)>
+    <!ATTLIST ciudad id CDATA #REQUIRED>
+]>
+
+<codigo_postal>
+    <ciudad id="1">
+        <nombre>Madrid</nombre>
+        <codigo>28001</codigo>
+    </ciudad>
+    <ciudad id="2">
+        <nombre>Barcelona</nombre>
+        <codigo>08001</codigo>
+    </ciudad>
+</codigo_postal>

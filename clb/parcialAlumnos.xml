@@ -1,0 +1,18 @@
+<!DOCTYPE parcialAlumnos [
+    <!ELEMENT parcialAlumnos (parcialAlumno*)>
+    <!ELEMENT parcialAlumno (personaID, parcialID, fecha)>
+    <!ATTLIST parcialAlumno id CDATA #REQUIRED>
+]>
+
+<parcialAlumnos>
+    <parcialAlumno id="1">
+        <personaID>1</personaID>
+        <parcialID>1</parcialID>
+        <fecha>2022-01-01</fecha>
+    </parcialAlumno>
+    <parcialAlumno id="2">
+        <personaID>2</personaID>
+        <parcialID>2</parcialID>
+        <fecha>2022-02-01</fecha>
+    </parcialAlumno>
+</parcialAlumnos>

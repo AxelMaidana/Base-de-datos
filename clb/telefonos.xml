@@ -1,0 +1,16 @@
+<!DOCTYPE telefonos [
+    <!ELEMENT telefonos (telefono*)>
+    <!ELEMENT telefono (numero, personaID)>
+    <!ATTLIST telefono id CDATA #REQUIRED>
+]>
+
+<telefonos>
+    <telefono id="1">
+        <numero>123456789</numero>
+        <personaID>1</personaID>
+    </telefono>
+    <telefono id="2">
+        <numero>987654321</numero>
+        <personaID>2</personaID>
+    </telefono>
+</telefonos>

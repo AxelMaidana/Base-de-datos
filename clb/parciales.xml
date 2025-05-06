@@ -1,0 +1,18 @@
+<!DOCTYPE parciales [
+    <!ELEMENT parciales (parcial*)>
+    <!ELEMENT parcial (materiaID, fecha, tipo)>
+    <!ATTLIST parcial id CDATA #REQUIRED>
+]>
+
+<parciales>
+    <parcial id="1">
+        <materiaID>1</materiaID>
+        <fecha>2022-01-01</fecha>
+        <tipo>Examen</tipo>
+    </parcial>
+    <parcial id="2">
+        <materiaID>2</materiaID>
+        <fecha>2022-02-01</fecha>
+        <tipo>Examen</tipo>
+    </parcial>
+</parciales>
