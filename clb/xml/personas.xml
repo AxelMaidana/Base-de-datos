@@ -1,0 +1,22 @@
+<!DOCTYPE personas [
+    <!ELEMENT personas (persona*)>
+    <!ELEMENT persona (legajo, nombre, email, direccion, codigo_postal)>
+    <!ATTLIST persona id CDATA #REQUIRED>
+]>
+
+<personas>
+    <persona id="1">
+        <legajo>1</legajo>
+        <nombre>Juan</nombre>
+        <email>juan@gmail.com</email>
+        <direccion>C/ Juan</direccion>
+        <codigo_postal>1</codigo_postal> <!-- Referencia a id de codigo_postal -->
+    </persona>
+    <persona id="2">
+        <legajo>2</legajo>
+        <nombre>Pedro</nombre>
+        <email>pedro@gmail.com</email>
+        <direccion>C/ Pedro</direccion>
+        <codigo_postal>2</codigo_postal>
+    </persona>
+</personas>
