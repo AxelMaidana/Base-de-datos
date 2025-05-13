@@ -1,0 +1,13 @@
+[
+  {
+    "id": 6,
+    "nombre": "Pepe",
+    "apellido": "Perez",
+    "telefono": "123456789",
+    "activo": true,
+    "direccion": {
+      "calle": "Calle Falsa",
+      "numero": 123
+    }
+  }
+]

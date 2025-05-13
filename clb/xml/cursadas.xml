@@ -1,0 +1,18 @@
+<!DOCTYPE cursadas [
+    <!ELEMENT cursadas (cursada*)>
+    <!ELEMENT cursada (personaID, materiaID, fecha)>
+    <!ATTLIST cursada id CDATA #REQUIRED>
+]>
+
+<cursadas>
+    <cursada id="1">
+        <personaID>1</personaID>
+        <materiaID>1</materiaID>
+        <fecha>2022-01-01</fecha>
+    </cursada>
+    <cursada id="2">
+        <personaID>2</personaID>
+        <materiaID>2</materiaID>
+        <fecha>2022-02-01</fecha>
+    </cursada>
+</cursadas>

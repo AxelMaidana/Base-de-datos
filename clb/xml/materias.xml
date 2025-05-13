@@ -1,0 +1,16 @@
+<!DOCTYPE materias [
+    <!ELEMENT materias (materia*)>
+    <!ELEMENT materia (nombre, carga_horaria)>
+    <!ATTLIST materia id CDATA #REQUIRED>
+]>
+
+<materias>
+    <materia id="1">
+        <nombre>Matemáticas</nombre>
+        <carga_horaria>4</carga_horaria>
+    </materia>
+    <materia id="2">
+        <nombre>Física</nombre>
+        <carga_horaria>3</carga_horaria>
+    </materia>
+</materias>
